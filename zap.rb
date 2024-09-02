@@ -8,5 +8,5 @@ regex = /\(\d{2}\) \d \d{4}-\d{4}/
 if whatsapp_number.match?(regex)
   puts "Seu WhatsApp é #{whatsapp_number} e está no formato correto."
 else
-  puts "O número #{whatsapp_number} não está no formato esperado. Tente novamente."
+  puts "O número #{whatsapp_number} não está no formato esperado."
 end
